@@ -1,0 +1,100 @@
+{
+    "flights": [
+        {
+            "code": "A1B2C3",
+            "price": "400.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 737",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1B2C4",
+            "price": "199.99",
+            "origin": "MUA",
+            "destination": "LAX",
+            "planeType": "Boing 737",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A134DS",
+            "price": "750.0",
+            "origin": "MUA",
+            "destination": "LAX",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1B34S",
+            "price": "420.0",
+            "origin": "MUA",
+            "destination": "CLE",
+            "planeType": "Boing 707",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A12342",
+            "price": "308.0",
+            "origin": "MUA",
+            "destination": "CLE",
+            "planeType": "Boing 727",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1QWER",
+            "price": "496.0",
+            "origin": "MUA",
+            "destination": "LAX",
+            "planeType": "Boing 747",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1ASD4",
+            "price": "736.0",
+            "origin": "MUA",
+            "destination": "CLE",
+            "planeType": "Boing 757",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1BTT4",
+            "price": "593.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A14244",
+            "price": "294.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 787",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1FGF4",
+            "price": "958.0",
+            "origin": "MUA",
+            "destination": "PDX",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "AFFFC4",
+            "price": "283.0",
+            "origin": "MUA",
+            "destination": "PDX",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A1B3D4",
+            "price": "385.0",
+            "origin": "MUA",
+            "destination": "PDX",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        }
+    ]
+}

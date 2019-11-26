@@ -1,0 +1,77 @@
+#%RAML 0.8
+title: REST API
+baseUri: http://localhost:8081/api
+
+/unitedFlightsByDestination: 
+  description: This resouce get all the flights details from united airlines based on the destination
+  get: 
+    queryParameters: 
+      destination:
+        minLength: 3
+        maxLength: 3
+        example: SFO
+        required: true  
+    responses: 
+      200: 
+        body: 
+          application/json: 
+            example: !include examples/unitedFlightsByDestination-get-response.json
+                        
+                           
+/listAllUnitedFlights: 
+  description: This resouce get all the flights details from united airlines
+  get: 
+    responses: 
+      200: 
+        body: 
+          application/json: 
+            example: !include examples/listAllUnitedFlights-get-response.json
+
+/deltaFlightsByDestination:
+  get:
+    description: This resouce get all the flights details from dela airlines by destination
+    queryParameters: 
+      destination:
+        minLength: 3
+        maxLength: 3
+        required: true
+        example: SFO
+    responses: 
+      200: 
+        body: 
+          application/json:   
+            example: !include examples/deltaFlightsByDestination-get-response.json
+
+/listAllDeltaFlights:
+  get:
+    description: This resouce get all the flights details from dela airlines 
+    responses: 
+      200: 
+        body: 
+          application/json: 
+             example: !include examples/listAllDeltaFlights-get-response.json
+
+/listAllFlightsByDestination:
+  get:
+    description: This resouce get all the flights details from different airlines by destination
+    queryParameters: 
+      destination:
+        minLength: 3
+        maxLength: 3
+        required: true
+        example: SFO
+    responses: 
+      200: 
+        body: 
+          application/json: 
+            
+
+
+
+
+
+
+
+
+
+            

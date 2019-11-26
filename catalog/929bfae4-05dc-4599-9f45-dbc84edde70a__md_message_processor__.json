@@ -1,0 +1,11 @@
+{
+    "inputMessageMetadata": {},
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "deltafilghtsBydestiantionResponse"
+        }
+    },
+    "id": "929bfae4-05dc-4599-9f45-dbc84edde70a",
+    "version": "5.2.0.0"
+}

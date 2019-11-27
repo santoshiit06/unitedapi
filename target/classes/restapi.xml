@@ -27,10 +27,18 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     <flow name="get:/listAllDeltaFlights:restapi-config">
         <flow-ref name="listalldeltaflightsFlow" doc:name="listalldeltaflightsFlow" />
     </flow>
+  
     <flow name="get:/listAllFlightsByDestination:restapi-config">
         <flow-ref name="listallflightsbydestinationFlow" doc:name="listallflightsbydestinationFlow"/>
 
     </flow>
+    
+     <flow name="post:/addUnitedFlight:restapi-config">
+        <flow-ref name="addunitedflightFlow" doc:name="addunitedflightFlow"/>
+       
+    </flow>
+    
+    
     <apikit:mapping-exception-strategy name="restapi-apiKitGlobalExceptionMapping">
         <apikit:mapping statusCode="404">
             <apikit:exception value="org.mule.module.apikit.exception.NotFoundException" />

@@ -1,0 +1,8 @@
+ {
+            "code": "A1B2C3",
+            "price": "400.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 737",
+            "airlineName": "Delta"
+        }

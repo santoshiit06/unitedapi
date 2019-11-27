@@ -1,0 +1,29 @@
+{
+    "flights": [
+        {
+            "code": "A1B2C3",
+            "price": "400.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 737",
+            "airlineName": "Delta"
+        },
+      
+        {
+            "code": "A1BTT4",
+            "price": "593.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 777",
+            "airlineName": "Delta"
+        },
+        {
+            "code": "A14244",
+            "price": "294.0",
+            "origin": "MUA",
+            "destination": "SFO",
+            "planeType": "Boing 787",
+            "airlineName": "Delta"
+        }
+    ]
+}

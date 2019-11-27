@@ -71,7 +71,7 @@
 			      <muleVersion>3.9.3</muleVersion>
 			      <username>santhoshuberacc</username>
 			      <password>Spiderman143</password>
-			      <applicationName>unitedapi</applicationName>
+			      <applicationName>unitedapi3</applicationName>
 			      <environment>Sandbox</environment>
 			      <workerType>Micro</workerType> 
 			       <workers>1</workers>
